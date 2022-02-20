@@ -9,7 +9,7 @@ function draw () {
   let output = ''
   for (let i = 0; i < w; i++) {
     if (Math.random() > 0.5) {
-      output += '\\'
+      output += '✺'
     } else {
       output += '/'
     }
