@@ -11,7 +11,7 @@ function draw () {
     if (Math.random() > 0.5) {
       output += 'yes'
     } else {
-      output += 'no'
+      output += 'nope'
     }
   }
   console.log(output)
