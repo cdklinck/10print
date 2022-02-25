@@ -9,12 +9,13 @@ function draw () {
   let output = ''
   for (let i = 0; i < w; i++) {
     if (Math.random() > 0.5) {
-      output += 'yes'
+      output += '<3'
     } else {
-      output += 'nope'
+      output += '/'
     }
   }
   console.log(output)
 }
+
 
 draw()
